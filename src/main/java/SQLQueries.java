@@ -1,4 +1,4 @@
-public class SQLClasses {
+public class SQLQueries {
     public static final String OLDER_AGE = """
             SELECT * FROM user WHERE age <= 18;
              """;
@@ -15,6 +15,6 @@ public class SQLClasses {
             SELECT count(*) AS COUNT FROM USER WHERE age >=18;
             """;
 
-    public SQLClasses() {
+    public SQLQueries() {
     }
 }
