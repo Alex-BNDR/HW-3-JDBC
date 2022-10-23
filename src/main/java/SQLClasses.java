@@ -7,7 +7,6 @@ public class SQLClasses {
              """;
     public static final String BETWEEN_AGE = """
             SELECT * FROM user WHERE age BETWEEN 18 AND 60;
-                             
             """;
     public static final String COUNT_USER_CONTAIN_LATTER = """
             SELECT count(*) AS COUNT FROM USER WHERE first_name LIKE '%a%';
