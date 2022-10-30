@@ -1,6 +1,6 @@
 public class SQLQueries {
     public static final String OLDER_AGE = """
-            SELECT * FROM user WHERE age <= 18;
+            SELECT * FROM user WHERE age < 18;
              """;
     public static final String ST_LATTER_NAME = """
             SELECT * FROM user WHERE first_name LIKE '%o';
